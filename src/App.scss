@@ -1,0 +1,21 @@
+.page {
+  display: grid;
+  grid-template: auto / 1fr 400px;
+  column-gap: 20px;
+  min-height: 100vh;
+
+  &-content {
+    padding: 20px;
+  }
+
+  &-title {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 62px;
+  }
+}
+
+.sidebar {
+  padding: 20px;
+  border-left: 1px solid lightgray;
+}
